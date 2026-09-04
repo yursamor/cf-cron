@@ -6,7 +6,7 @@ main = "index.ts"
 compatibility_date = "2025-12-08"
 
 # D1 数据库绑定配置
-d1_databases = [{ binding = "DB", database_name = "cf-cron", database_id = "6698369a-4b87-4a11-8f4a-9f00ae007504" }]
+d1_databases = [{ binding = "DB", database_name = "cf-cron-db", database_id = "8af3cb9b-de78-4681-8dd8-5c5312675e47" }]
 
 # KV 命名空间绑定配置（用于任务缓存）
 kv_namespaces = [{ binding = "CACHE", id = "ccab9bcaae604cce82d9cef92bbb5f7f" }]
